@@ -59,10 +59,11 @@ def generate_qa(text):
 
     # text_summary=summarize(text)
     text_summary=text
-    
+    y
 
-    modelA, modelB='./models/modelA','./models/modelB'
-    tokenizerA, tokenizerB= './tokenizers/tokenizerA', './tokenizers/tokenizerB'
+    modelA, modelB='C:\\devstuff\\AOSSIE\\EduAid\\backend\\models\\modelA','C:\\devstuff\\AOSSIE\\EduAid\\backend\\models\\modelB'
+    # tokenizerA, tokenizerB= './tokenizers/tokenizerA', './tokenizers/tokenizerB'
+    tokenizerA, tokenizerB= 't5-base', 't5-base'
 
     answers=generate_keyphrases(text_summary, modelA, tokenizerA)
 
