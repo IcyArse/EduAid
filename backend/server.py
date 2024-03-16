@@ -59,7 +59,6 @@ def generate_qa(text):
 
     # text_summary=summarize(text)
     text_summary=text
-    y
 
     modelA, modelB='C:\\devstuff\\AOSSIE\\EduAid\\backend\\models\\modelA','C:\\devstuff\\AOSSIE\\EduAid\\backend\\models\\modelB'
     # tokenizerA, tokenizerB= './tokenizers/tokenizerA', './tokenizers/tokenizerB'
